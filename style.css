@@ -1,9 +1,80 @@
-body {
-    font-family: "Raleway", sans-serif;
-    margin: 0;
+/* All */
+
+a {
+    text-decoration: none;
+    color: unset;
 }
 
 /* Header */
+
+header div {
+    padding: 0px 50px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 40px;
+    max-width: 1450px;
+    margin: auto;
+}
+
+header #logo {
+    flex-grow: 1;
+}
+
+header>div>nav {
+    padding-bottom: 10px;
+}
+
+header #register {
+    color: #0065fc;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+header a {
+    margin: 0px 35px;
+}
+
+header>div>nav>ul {
+    display: flex;
+    margin: 0px;
+}
+
+header>div>nav .menu-link {
+    display: flex;
+    align-items: center;
+    padding-top: 45px;
+}
+
+header>div>nav .menu-link:hover {
+    border-top: 5px solid #0065fc;
+    color: #0065fc;
+    font-weight: bold;
+}
+
+header #menu {
+    color: #0065fc;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+
+/* main-content */
+
+#main-content {
+    padding: 0px 50px;
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 1450px;
+}
+
+
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+
+}
+
 
 nav {
     display: flex;
@@ -27,10 +98,9 @@ nav li {
 
 /* Main */
 
-/* Banner */
 
 /* Hotels + Hotels populaires  */
-#allhotels {
+.allhotels {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,9 +118,36 @@ nav li {
 #populaires
 
 /* Activités*/
-#activites {
+.activites {
     display: flex;
 }
 
 
 /* Footer*/
+
+footer {
+    background-color: #ebe6e6;
+    text-decoration: none;
+}
+
+footer #footer-block {
+    display: flex;
+    margin: auto;
+    padding: 40px 60px;
+    max-width: 1350px;
+}
+
+footer article {
+    width: 33%;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+
+footer article h4 {
+    font-size: 20px;
+}
+
+/* Responsive */
+
+@media {}

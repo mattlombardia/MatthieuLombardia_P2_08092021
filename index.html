@@ -17,26 +17,72 @@
 
   <!-- Header -->
   <header>
-    <nav>
-      <img src="./images/logo/Reservia@3x.png" alt="logo" />
-      <ul>
-        <li class="nav-link"><a href="#hotels">Hébergement</a></li>
-        <li class="nav-link"><a href="#activites">Activités</a></li>
-        <li class="nav-link"><a href="#sinscrire">S'inscrire</a></li>
-      </ul>
-    </nav>
+    <div>
+      <span id="logo">
+        <img src="./images/logo/Reservia@3x.png" alt="logo" />
+      </span>
+      <nav>
+        <ul>
+          <li class="menu-link"><a href="#">Hébergement</a></li>
+          <li class="menu-link"><a href="#">Activités</a></li>
+        </ul>
+      </nav>
+      <span id="menu"><a href="#">S'inscrire</a></span>
+    </div>
   </header>
 
-  <!-- Main -->
-  <main>
-    <!-- Banner -->
-    <Section>
-      <div id="banner">
-        <h2>Trouvez votre Hébergements pour des vacances de rêves</h2>
-        <p>En plein centre ville ou en pleine nature</p>
-      </div>
-    </Section>
+  <!-- main section -->
+  <section id="main-content">
+    <!-- search section -->
+    <section id='search-section'>
+      <h3>Trouver votre hébergement pour des vacances de rêve</h3>
+      <p>En plein centre ville ou en pleine nature</p>
 
+      <!-- search-input -->
+      <form id="search-input">
+        <span class="icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </span>
+        <input type="text" />
+        <button> <span>Rechercher</span> <i class="fas fa-search "></i> </button>
+      </form>
+
+      <div id="filter">
+        <h4>Filtres</h4>
+        <div>
+          <button type="button">
+            <span class="filter-icon"><i class="fas fa-money-bill-wave"></i></span>
+            <span class="filter-text">Économique</span>
+          </button>
+          <button type="button">
+            <span class="filter-icon"><i class="fas fa-child"></i></span>
+            <span class="filter-text">Familial</span>
+          </button>
+          <button type="button">
+            <span class="filter-icon"><i class="fas fa-heart"></i></span>
+            <span class="filter-text">Romantique</span>
+          </button>
+          <button type="button">
+            <span class="filter-icon"><i class="fas fa-dog"></i></span>
+            <span class="filter-text">Animaux autorisés</span>
+          </button>
+        </div>
+      </div>
+
+      <!--info-->
+      <div id="filter-section">
+        <span class="info-icon">
+          <i class="fas fa-info"></i>
+        </span>
+        <span>Plus de 500 logement sont disponibles dans cette ville</span>
+      </div>
+    </section>
+
+
+
+
+
+    <!-- search-input -->
     <section id="allhotels">
       <!-- hotels -->
       <Section id="hotels">
@@ -91,62 +137,58 @@
           </Article>
         </section>
       </section>
-    </section>
 
-    <!-- Activités -->
-    <Section id="activites">
-      <div>
-        <h2>Activités à Marseille</h2>
-      </div>
-      <section>
-        <Article><img src="./images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo">
-          <h4>Vieux Port</h4>
-        </Article>
-        <Article><img src="./images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo">
-          <h4>Fort de Pomègues</h4>
-        </Article>
-        <Article><img src="./images/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo">
-          <h4>Îles du Frioul</h4>
-        </Article>
-        <Article><img src="./images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo">
-          <h4>Parc National des Calanques</h4>
-        </Article>
-        <Article><img src="./images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo">
-          <h4>Notre-Dame-de-la-Garde</h4>
-        </Article>
-        <Article><img src="./images/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo">
-          <h4>Parc Longchamp</h4>
-        </Article>
+      <!-- Activités -->
+      <Section id="activites">
+        <div>
+          <h2>Activités à Marseille</h2>
+        </div>
+        <section>
+          <Article><img src="./images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo">
+            <h4>Vieux Port</h4>
+          </Article>
+          <Article><img src="./images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo">
+            <h4>Fort de Pomègues</h4>
+          </Article>
+          <Article><img src="./images/activites/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo">
+            <h4>Îles du Frioul</h4>
+          </Article>
+          <Article><img src="./images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo">
+            <h4>Parc National des Calanques</h4>
+          </Article>
+          <Article><img src="./images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo">
+            <h4>Notre-Dame-de-la-Garde</h4>
+          </Article>
+          <Article><img src="./images/activites/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo">
+            <h4>Parc Longchamp</h4>
+          </Article>
+        </section>
       </section>
-    </Section>
-  </main>
-  <!-- footer -->
-  <footer>
-    <div>
-      <div>
-        <p>A propos</p>
-        <ul>
-          <li href="#">Fonctionnement du site</li>
-          <li>Conditions générales de ventes</li>
-          <li>Données et confidentialités</li>
-        </ul>
-      </div>
-      <div>
-        <p>Nos Hébergements</p>
-        <ul>
-          <li>Charte qualité</li>
-          <li>Soumettre votre Hôtel</li>
-        </ul>
-      </div>
-      <div>
-        <p>Assistance</p>
-        <ul>
-          <li>Centre d'aide</li>
-          <li>Nous contacter</li>
-        </ul>
-      </div>
-    </div>
-  </footer>
+
+
+      <!-- footer -->
+      <footer>
+        <div id="footer-block">
+          <article>
+            <h4>A Propos</h4>
+            <a href="#">Fonctionement du site</a>
+            <br />
+            <a href="#">Conditions générales de Vente</a>
+            <br />
+            <a href="#">Données et confidentialités</a>
+          </article>
+          <article>
+            <h4>Nos Hébergements</h4>
+            <a href="#">Charte de qualité</a><br />
+            <a href="#">Soumettre votre Hôtel</a>
+          </article>
+          <article>
+            <h4>Asistance</h4>
+            <a href="#">Centre d'aide</a><br />
+            <a href="#">Nous Contacter</a>
+          </article>
+        </div>
+      </footer>
 </body>
 
 </html>
