@@ -1,7 +1,7 @@
 /* All */
 
 * {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", Verdana, sans-serif;
 }
 
 input,
@@ -415,33 +415,6 @@ h6 {
 
 
 
-
-body {
-    font-family: "Raleway", sans-serif;
-    margin: 0;
-
-}
-
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav img {
-    height: 80px;
-}
-
-
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav li {
-    margin-right: 0 10px 0 20px;
-}
 
 
 
