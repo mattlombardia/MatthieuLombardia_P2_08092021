@@ -1,9 +1,46 @@
 /* All */
 
+* {
+    font-family: "Raleway", sans-serif;
+}
+
+input,
+button {
+    border: none;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+body {
+    margin: 0px;
+}
+
 a {
     text-decoration: none;
     color: unset;
 }
+
+li {
+    list-style: none;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+h3 {
+    margin: 10px 0px;
+    font-size: 22px;
+}
+
+h4 {
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
 
 /* Header */
 
@@ -302,6 +339,81 @@ header #menu {
 
 
 
+/* activity section */
+
+#activities {
+    margin: auto;
+    max-width: 1450px;
+    margin-top: 50px;
+    padding: 30px 0px;
+}
+
+#activity-list {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 35px;
+    row-gap: 35px;
+}
+
+#section-activities div {
+    height: 500px;
+}
+
+.activity-card {
+    box-shadow: 0 0 20px #0000002e;
+    border-radius: 20px;
+}
+
+.activity-card:hover {
+    transform: scale(1.02);
+}
+
+.vertical-card img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h6 {
+    font-size: 14px;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.horizontal-card {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+.horizontal-card img {
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.horizontal-card:first-child {
+    margin-bottom: 35px;
+}
+
+.card-pomegues img {
+    height: 200px;
+}
+
+.card-iles {
+    height: 200px;
+}
+
+.card-iles img {
+    height: 120px;
+}
+
+
 
 
 body {
@@ -331,7 +443,6 @@ nav li {
     margin-right: 0 10px 0 20px;
 }
 
-/* Main */
 
 
 
@@ -339,7 +450,7 @@ nav li {
 /* Footer*/
 
 footer {
-    background-color: #ebe6e6;
+    background-color: #f2f2f2;
     text-decoration: none;
 }
 
@@ -356,10 +467,6 @@ footer article {
     font-size: 16px;
 }
 
-
-footer article h4 {
-    font-size: 20px;
-}
 
 /* Responsive */
 
