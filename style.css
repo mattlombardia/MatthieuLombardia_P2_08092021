@@ -94,6 +94,10 @@ header #menu {
     padding-bottom: 10px;
 }
 
+#mobile-responsive {
+    display: none;
+}
+
 
 
 /* main-content */
@@ -441,7 +445,7 @@ footer article {
 }
 
 
-/* Responsive media queries */
+/* Mobile Responsive media queries */
 
 @media (max-width: 1024px) {
     #hotel {
@@ -456,6 +460,117 @@ footer article {
         width: auto;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-
     }
+
+    #activity-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+
+    header>div {
+        padding: 10px 10px;
+    }
+
+    header>div>nav {
+        display: none;
+    }
+
+    #menu a {
+        margin: 0px 5px;
+    }
+
+    #search-section {
+        padding-bottom: 40px;
+    }
+
+    #search-input {
+        width: 270px;
+    }
+
+    #search-input input {
+        width: 150px;
+    }
+
+    #search-input button {
+        border-radius: 10px;
+    }
+
+    #search-input button span {
+        display: none;
+    }
+
+    #search-input button i {
+        display: flex;
+        margin: 10px;
+        text-align: center;
+    }
+
+
+    #mobile-responsive {
+        display: block;
+    }
+
+    #mobile-responsive ul {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 0px;
+    }
+
+    #mobile-responsive li {
+        width: 50%;
+        border-bottom: 2px solid #f2f2f2;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    #mobile-responsive li.active {
+        flex-grow: 1;
+        border-color: #0065fc;
+        color: #0065fc;
+    }
+
+
+    #hotel {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #hotel-popular-list {
+        grid-template-columns: 1fr;
+    }
+
+    #hotel-popular-list .hotel-info {
+        margin: 10px;
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    #hotel-list {
+        grid-template-columns: 1fr;
+    }
+
+    #activity-list {
+        grid-template-columns: 1fr;
+    }
+
+    footer #footer-block {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    footer article {
+        width: 300px;
+    }
+
+
+    footer article h4 {
+        font-size: 14px;
+        margin: 5px 0px;
+        padding: 20;
+    }
+
 }
