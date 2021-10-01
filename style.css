@@ -31,14 +31,14 @@ p {
     margin: 10px 0px;
 }
 
-h3 {
+h1 {
     margin: 10px 0px;
     font-size: 22px;
 }
 
-h4 {
+h2 {
     margin: 10px 0px;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 
@@ -160,7 +160,7 @@ header #menu {
     margin: 35px 0px;
 }
 
-#filter h4 {
+#filter h2 {
     margin-right: 20px;
 }
 
@@ -276,7 +276,7 @@ header #menu {
     margin: 5px;
 }
 
-.hotel-info h4 {
+.hotel-info h2 {
     margin: 2px 0px;
     font-size: 16px;
 }
@@ -636,7 +636,7 @@ footer article {
     }
 
 
-    footer article h4 {
+    footer article h2 {
         font-size: 14px;
         margin: 5px 0px;
         padding: 20;
