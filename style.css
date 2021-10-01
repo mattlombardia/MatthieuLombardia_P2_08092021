@@ -382,7 +382,7 @@ header #menu {
     border-top-right-radius: 20px;
 }
 
-h6 {
+h3 {
     font-size: 14px;
     margin: 20px;
     padding-bottom: 10px;
@@ -618,12 +618,12 @@ footer article {
     .card-iles {
         height: 200px;
     }
-    
+
     .card-iles img {
         height: 160px;
     }
-    
-    
+
+
 
 
     footer #footer-block {
