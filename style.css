@@ -94,10 +94,11 @@ header #menu {
     padding-bottom: 10px;
 }
 
+/*
 #mobile-responsive {
     display: none;
 }
-
+*/
 
 
 /* main-content */
@@ -515,7 +516,7 @@ footer article {
         text-align: center;
     }
 
-
+    /*
     #mobile-responsive {
         display: block;
     }
@@ -540,6 +541,7 @@ footer article {
         color: #0065fc;
     }
 
+*/
 
     #hotel>section {
         padding: 0;
